@@ -27,26 +27,6 @@ Types of Linked Lists:
 
 Linked lists are dynamic in nature and allow efficient insertion and deletion compared to arrays.
 
-+----------------+
-|     Start      |
-+----------------+
-       |
-       v
-+----------------------+
-| Create Node (data=20)|
-+----------------------+
-       |
-       v
-+----------------+
-| Print data,next|
-+----------------+
-       |
-       v
-+----------------+
-|      End       |
-+----------------+
-
-
 
 ### Difference b/w array & linked list
 | Feature            | Array                               | Linked List                        |
