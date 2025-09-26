@@ -35,6 +35,15 @@ Linked lists are dynamic in nature and allow efficient insertion and deletion co
 | Insertion/Deletion | Costly (shifting elements required) | Efficient (change pointers only)   |
 | Memory Utilization | May waste memory                    | Uses memory as needed              |
 
+### common operations
+
+| Operation             | Time Complexity | Description                                    |
+| --------------------- | --------------- | ---------------------------------------------- |
+| **Insertion at Head** | O(1)            | Create new node and point it to current head   |
+| **Insertion at Tail** | O(n)            | Traverse to end and add node                   |
+| **Deletion at Head**  | O(1)            | Move head pointer to next node and free memory |
+| **Deletion at Tail**  | O(n)            | Traverse to second-last node, unlink last node |
+| **Search Element**    | O(n)            | Check each node sequentially                   |
 
 ## Algorithm
 ### To Insert a Node at the End:
