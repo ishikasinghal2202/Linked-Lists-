@@ -27,6 +27,15 @@ Types of Linked Lists:
 
 Linked lists are dynamic in nature and allow efficient insertion and deletion compared to arrays.
 
+### Difference b/w array & linked list
+| Feature            | Array                               | Linked List                        |
+| ------------------ | ----------------------------------- | ---------------------------------- |
+| Memory Allocation  | Static (fixed size)                 | Dynamic (grows/shrinks at runtime) |
+| Access Time        | O(1) (direct indexing)              | O(n) (sequential traversal)        |
+| Insertion/Deletion | Costly (shifting elements required) | Efficient (change pointers only)   |
+| Memory Utilization | May waste memory                    | Uses memory as needed              |
+
+
 ## Algorithm
 ### To Insert a Node at the End:
 1. Start.
