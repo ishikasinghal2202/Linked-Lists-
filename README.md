@@ -27,13 +27,24 @@ Types of Linked Lists:
 
 Linked lists are dynamic in nature and allow efficient insertion and deletion compared to arrays.
 
-### flowchart TD
-    A([Start]) --> B[Set current = head]
-    B --> C{Is current NULL?}
-    C -- Yes --> D([Stop])
-    C -- No --> E[Print current->data]
-    E --> F[Move current = current->next]
-    F --> C
+ +----------------+
+|     Start      |
++----------------+
+       |
+       v
++----------------------+
+| Create Node (data=20)|
++----------------------+
+       |
+       v
++----------------+
+| Print data,next|
++----------------+
+       |
+       v
++----------------+
+|      End       |
++----------------+
 
 
 ### Difference b/w array & linked list
