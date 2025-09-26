@@ -67,5 +67,5 @@ Linked lists are dynamic in nature and allow efficient insertion and deletion co
 ## Conclusion
 The implementation of linked lists in C++ provides an understanding of dynamic data structures and memory management.  
 Unlike arrays, linked lists allow efficient insertions and deletions at any position, making them a flexible alternative for handling dynamic datasets.
-*/
+
 
